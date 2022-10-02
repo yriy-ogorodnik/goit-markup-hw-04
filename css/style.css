@@ -324,6 +324,7 @@ address {
   align-items: center;
   color: #afb1b8;
   border-radius: 50%;
+  cursor: pointer;
 }
 .social-link:hover,
 .social-link:active {
@@ -446,11 +447,12 @@ address {
 .footer .link {
   display: inline-block;
 }
-.footer > .container > .link {
+.foter-contact > .link {
   margin-bottom: 20px;
 }
 .address {
   font-style: normal;
+  width: 231px;
 }
 .contacts-address-link {
   margin-bottom: 9px;
@@ -459,4 +461,22 @@ address {
 }
 .contact-mail {
   margin-bottom: 9px;
+}
+
+/* social-------------- */
+.footer-icon {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.foter-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+.footer-flex {
+  display: flex;
+  align-items: center;
+  gap: 70px;
 }
